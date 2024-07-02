@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký - SHOPEE SALE THẢ GA - KHÔNG LO VỀ GIÁ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>SHOPEE SALE THẢ GA - KHÔNG LO VỀ GIÁ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="shop.html">Cửa hàng</a></li>
+                <li><a href="login.html">Đăng nhập</a></li>
+                <li class="active"><a href="register.html">Đăng ký</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="register">
+            <h2>Đăng ký</h2>
+            <form id="register-form" onsubmit="register()"  action="#">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="username">Tên đăng nhập:</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Mật khẩu:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <button type="submit">Đăng ký</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tên website của bạn. All rights reserved.</p>
+    </footer>
+</body>
+<script src="./register.js"></script>
+</html>
